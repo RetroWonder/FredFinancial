@@ -244,7 +244,16 @@ function PlasmicHeader__RenderFunc(props: {
                   sty.text___0C8De
                 )}
               >
-                {"Services"}
+                <React.Fragment>
+                  <React.Fragment>{""}</React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#000000" }}
+                  >
+                    {"Services"}
+                  </span>
+                  <React.Fragment>{""}</React.Fragment>
+                </React.Fragment>
               </div>
 
               {false ? (
@@ -266,7 +275,33 @@ function PlasmicHeader__RenderFunc(props: {
             sty.about
           )}
         >
-          {"About Us"}
+          <React.Fragment>
+            <React.Fragment>{""}</React.Fragment>
+            <p.PlasmicLink
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                projectcss.__wab_text,
+                projectcss.plasmic_default__inline,
+                sty.link__cdO3T
+              )}
+              component={Link}
+              href={"/about" as const}
+              platform={"nextjs"}
+            >
+              <React.Fragment>
+                <React.Fragment>{""}</React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ color: "#070707" }}
+                >
+                  {"About Us"}
+                </span>
+                <React.Fragment>{""}</React.Fragment>
+              </React.Fragment>
+            </p.PlasmicLink>
+            <React.Fragment>{""}</React.Fragment>
+          </React.Fragment>
         </div>
       </p.Stack>
     ) : null
