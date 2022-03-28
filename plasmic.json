@@ -1,0 +1,527 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+      "projectApiToken": "3NVlHYQQvdCw3A2lyaJr4orC679tzChDItI2ewzz1sdtom8rVnw8of4nGh4ZNmmimgaxtN4ZWD2ML4XGxUu2nQ",
+      "projectName": "Fred Financial",
+      "version": "latest",
+      "cssFilePath": "plasmic/fred_financial/plasmic_fred_financial.module.css",
+      "components": [
+        {
+          "id": "4Z7M4Q_zhZJKZ",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicHome.tsx",
+          "importSpec": {
+            "modulePath": "../pages/home.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "P5xx5L9lqnt15",
+          "name": "AboutUs",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicAboutUs.tsx",
+          "importSpec": {
+            "modulePath": "../pages/about.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicAboutUs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "FSbb_AqntfVa2",
+          "name": "HomeFooterTop",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicHomeFooterTop.tsx",
+          "importSpec": {
+            "modulePath": "HomeFooterTop.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicHomeFooterTop.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PF9aJF3P69b2M",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "t-etfb9JiAudE",
+          "name": "BderWhite",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicBderWhite.tsx",
+          "importSpec": {
+            "modulePath": "BderWhite.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicBderWhite.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UoXjh9nE_CJ7V",
+          "name": "SocialIcons",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicSocialIcons.tsx",
+          "importSpec": {
+            "modulePath": "SocialIcons.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicSocialIcons.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZAq_6YLf-wrCFi",
+          "name": "BlueBdr",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicBlueBdr.tsx",
+          "importSpec": {
+            "modulePath": "BlueBdr.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicBlueBdr.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "DEPk3RMDp5eK7Q",
+          "name": "Services",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicServices.tsx",
+          "importSpec": {
+            "modulePath": "../pages/services.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicServices.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "3JDfbv4YbHRyxR",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "DaobuC4oPpHEJz",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_mNL0lQFsbyYOR",
+          "name": "FooterMain",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicFooterMain.tsx",
+          "importSpec": {
+            "modulePath": "FooterMain.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicFooterMain.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "asufuhvKp2c9ej",
+          "name": "PersonCard",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicPersonCard.tsx",
+          "importSpec": {
+            "modulePath": "PersonCard.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicPersonCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rNp_va1e8vhCc6",
+          "name": "ServiceValue",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicServiceValue.tsx",
+          "importSpec": {
+            "modulePath": "ServiceValue.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicServiceValue.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tHg6vjb5KqMksY",
+          "name": "Client",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicClient.tsx",
+          "importSpec": {
+            "modulePath": "Client.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicClient.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "amN6ZfvGBSnRDX",
+          "name": "ServiceWhite",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicServiceWhite.tsx",
+          "importSpec": {
+            "modulePath": "ServiceWhite.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicServiceWhite.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "niCxVfw7cgm875",
+          "name": "ServiceDark",
+          "type": "managed",
+          "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+          "renderModuleFilePath": "plasmic/fred_financial/PlasmicServiceDark.tsx",
+          "importSpec": {
+            "modulePath": "ServiceDark.tsx"
+          },
+          "cssFilePath": "plasmic/fred_financial/PlasmicServiceDark.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "MgXTO9aCiaVs-I",
+          "name": "Icon29Icon",
+          "moduleFilePath": "plasmic/fred_financial/icons/PlasmicIcon__Icon29.tsx"
+        },
+        {
+          "id": "Kv3O_J_8a2hdsW",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/fred_financial/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "dvwEd_BkKtwJza",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/fred_financial/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "wi3VKWekO_oGyW",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/fred_financial/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "cbWCu6uJd49iyl",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/fred_financial/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "VnKrxR4J5yH_Y8",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/fred_financial/icons/PlasmicIcon__Searchsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "nfB85TaexV-xgL",
+          "name": "logo.svg",
+          "filePath": "../public/plasmic/fred_financial/images/logosvg.svg"
+        },
+        {
+          "id": "g-fhl7Tzc-1_eN",
+          "name": "Header-bg-6.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/headerBg6Jpg.jpeg"
+        },
+        {
+          "id": "wOf8Ic7zaT3VX6",
+          "name": "img-collage.png",
+          "filePath": "../public/plasmic/fred_financial/images/imgCollagepng.png"
+        },
+        {
+          "id": "TCgmu6wmbhkxKo",
+          "name": "person-1.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/person1Jpg.jpeg"
+        },
+        {
+          "id": "hTZO8tDjCAFApq",
+          "name": "person-2.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/person2Jpg.jpeg"
+        },
+        {
+          "id": "mJu1qJm87tKu9t",
+          "name": "person-3.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/person3Jpg.jpeg"
+        },
+        {
+          "id": "-MpePFuZ2wT4wn",
+          "name": "you-x-ventures-Oalh2MojUuk-unsplash.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/youXVenturesOalh2MojUukUnsplashjpg.jpeg"
+        },
+        {
+          "id": "kHLLbitNWc2zAT",
+          "name": "Header-bg-5.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/headerBg5Jpg.jpeg"
+        },
+        {
+          "id": "Advu4D10jSZBUq",
+          "name": "team-6.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/team6Jpg.jpeg"
+        },
+        {
+          "id": "-EvLL_6hJY0xZP",
+          "name": "team-3.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/team3Jpg.jpeg"
+        },
+        {
+          "id": "e9WKPmxUz38StS",
+          "name": "team-2.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/team2Jpg.jpeg"
+        },
+        {
+          "id": "0Zy_8luD8c8Zm8",
+          "name": "team-8.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/team8Jpg.jpeg"
+        },
+        {
+          "id": "3Y31PWVmAtKVM4",
+          "name": "team-9.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/team9Jpg.jpeg"
+        },
+        {
+          "id": "Jz_hLZ9azRb_7R",
+          "name": "bg-hero.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/bgHerojpg.jpeg"
+        },
+        {
+          "id": "Vc_pF9aj-RAjZi",
+          "name": "Header-bg-3.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/headerBg3Jpg.jpeg"
+        },
+        {
+          "id": "QZK0Axg3Tqz10-",
+          "name": "Header-bg-1.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/headerBg1Jpg.jpeg"
+        },
+        {
+          "id": "Xm9HAA-lEvru2P",
+          "name": "Header-bg-4.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/headerBg4Jpg.jpeg"
+        },
+        {
+          "id": "fmFTDFmdGgQT5X",
+          "name": "Header-bg-6 (1).jpg",
+          "filePath": "../public/plasmic/fred_financial/images/headerBg61Jpg.jpeg"
+        },
+        {
+          "id": "yUCgbRxBczKj_3",
+          "name": "you-x-ventures-Oalh2MojUuk-unsplash (1).jpg",
+          "filePath": "../public/plasmic/fred_financial/images/youXVenturesOalh2MojUukUnsplash1Jpg.jpeg"
+        },
+        {
+          "id": "6ykEg8dI-bNIJQ",
+          "name": "airbnb.svg",
+          "filePath": "../public/plasmic/fred_financial/images/airbnbsvg.svg"
+        },
+        {
+          "id": "0qadG12zw42XYY",
+          "name": "asana.svg",
+          "filePath": "../public/plasmic/fred_financial/images/asanasvg.svg"
+        },
+        {
+          "id": "J1T5tAFPSqzu5d",
+          "name": "disney.svg",
+          "filePath": "../public/plasmic/fred_financial/images/disneysvg.svg"
+        },
+        {
+          "id": "CrJ0Uj8fDAwYUS",
+          "name": "instacart.svg",
+          "filePath": "../public/plasmic/fred_financial/images/instacartsvg.svg"
+        },
+        {
+          "id": "oAh3m24a7rPS3X",
+          "name": "team-2.jpg 2",
+          "filePath": "../public/plasmic/fred_financial/images/team2Jpg2.jpeg"
+        },
+        {
+          "id": "PpvcJTR6OEgiJE",
+          "name": "team-8.jpg 2",
+          "filePath": "../public/plasmic/fred_financial/images/team8Jpg2.jpeg"
+        },
+        {
+          "id": "BuT7X6U5D6bEBP",
+          "name": "team-9.jpg 2",
+          "filePath": "../public/plasmic/fred_financial/images/team9Jpg2.jpeg"
+        },
+        {
+          "id": "7WHTHzyiM2i-7H",
+          "name": "you-x-ventures-Oalh2MojUuk-unsplash (1).jpg 2",
+          "filePath": "../public/plasmic/fred_financial/images/youXVenturesOalh2MojUukUnsplash1Jpg2.jpeg"
+        },
+        {
+          "id": "c_CqpGriPcBayw",
+          "name": "pexels-sora-shimazaki-5668437.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/pexelsSoraShimazaki5668437Jpg.jpeg"
+        },
+        {
+          "id": "YBpLTSMbddmcfa",
+          "name": "austin-distel-wD1LRb9OeEo-unsplash.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/austinDistelWD1LRb9OeEoUnsplashjpg.jpeg"
+        },
+        {
+          "id": "MMDoZ0iTuZOVrf",
+          "name": "hand-g176868e99_1920.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/handG176868E991920Jpg.jpeg"
+        },
+        {
+          "id": "ze9zfv-bekjoCO",
+          "name": "images.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/imagesjpg.jpeg"
+        },
+        {
+          "id": "-NJUfutRzCJFh7",
+          "name": "unnamed.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/unnamedjpg.jpeg"
+        },
+        {
+          "id": "feZTvf7ILQEJ8V",
+          "name": "images (1).jpg",
+          "filePath": "../public/plasmic/fred_financial/images/images1Jpg.jpeg"
+        },
+        {
+          "id": "ey1nb3C-lVgGY8",
+          "name": "team_2.jpg 3",
+          "filePath": "../public/plasmic/fred_financial/images/team2Jpg3.jpeg"
+        },
+        {
+          "id": "fMntyVLD7SeMiV",
+          "name": "tm1.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/tm1Jpg.jpeg"
+        },
+        {
+          "id": "3ZLglv43R6Y5vh",
+          "name": "team_4.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/team4Jpg.jpeg"
+        },
+        {
+          "id": "5xOT3N_mGqafAo",
+          "name": "avatar-3.png",
+          "filePath": "../public/plasmic/fred_financial/images/avatar3Png.png"
+        },
+        {
+          "id": "5ehnggyHiceMkl",
+          "name": "linkedin-sales-solutions-46bom4lObsA-unsplash.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/linkedinSalesSolutions46Bom4LObsAUnsplashjpg.jpeg"
+        },
+        {
+          "id": "XISp_ep7k9agtn",
+          "name": "linkedin-sales-solutions-qbDiSp5IqxA-unsplash.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/linkedinSalesSolutionsQbDiSp5IqxAUnsplashjpg.jpeg"
+        },
+        {
+          "id": "R45M8LHcwFJsZ-",
+          "name": "christina-wocintechchat-com-faEfWCdOKIg-unsplash.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/christinaWocintechchatComFaEfWCdOkIgUnsplashjpg.jpeg"
+        },
+        {
+          "id": "CLzPgdihwfPyCf",
+          "name": "brooke-cagle--uHVRvDr7pg-unsplash.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/brookeCagleUHvRvDr7PgUnsplashjpg.jpeg"
+        },
+        {
+          "id": "tv1cO8puzEn33N",
+          "name": "van-tay-media-Tv2AtkG_ilM-unsplash.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/vanTayMediaTv2AtkGIlMUnsplashjpg.jpeg"
+        },
+        {
+          "id": "jtPOa_l51H86Jv",
+          "name": "pexels-andrea-piacquadio-789822.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/pexelsAndreaPiacquadio789822Jpg.jpeg"
+        },
+        {
+          "id": "PXcnOFqN8LIgyR",
+          "name": "writing-pad-3202747_1920.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/writingPad32027471920Jpg.jpeg"
+        },
+        {
+          "id": "3P_dN4IzdMgner",
+          "name": "woman-5916335_1920.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/woman59163351920Jpg.jpeg"
+        },
+        {
+          "id": "y0aCM255hhLPs-",
+          "name": "marketing-3724797_1920.jpg",
+          "filePath": "../public/plasmic/fred_financial/images/marketing37247971920Jpg.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "8pwCrrkFl0Usl_",
+        "name": "Screen",
+        "projectId": "3EaMA65xrPs96BzDRgA4Kb",
+        "contextFilePath": "plasmic/fred_financial/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.176",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.176/dist/plasmic.schema.json"
+}
