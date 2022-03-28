@@ -35,8 +35,8 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Header from "../../Header"; // plasmic-import: DaobuC4oPpHEJz/component
-import ServiceValue from "../../ServiceValue"; // plasmic-import: rNp_va1e8vhCc6/component
 import HomeFooterTop from "../../HomeFooterTop"; // plasmic-import: FSbb_AqntfVa2/component
+import ServiceValue from "../../ServiceValue"; // plasmic-import: rNp_va1e8vhCc6/component
 import FooterMain from "../../FooterMain"; // plasmic-import: _mNL0lQFsbyYOR/component
 
 import { useScreenVariants as useScreenVariants_8PwCrrkFl0Usl } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 8pwCrrkFl0Usl_/globalVariant
@@ -61,9 +61,9 @@ export type PlasmicAboutUs__OverridesType = {
   aboutUsBanner?: p.Flex<"div">;
   foreground2?: p.Flex<"div">;
   h1?: p.Flex<"h1">;
+  homeFooterTop?: p.Flex<typeof HomeFooterTop>;
   h2?: p.Flex<"h2">;
   serviceRow?: p.Flex<"div">;
-  homeFooterTop?: p.Flex<typeof HomeFooterTop>;
   footerMain?: p.Flex<typeof FooterMain>;
 };
 
@@ -168,6 +168,14 @@ function PlasmicAboutUs__RenderFunc(props: {
                 </div>
               </p.Stack>
             </p.Stack>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.freeBox__wjUI)}>
+            <HomeFooterTop
+              data-plasmic-name={"homeFooterTop"}
+              data-plasmic-override={overrides.homeFooterTop}
+              className={classNames("__wab_instance", sty.homeFooterTop)}
+            />
           </div>
 
           <div className={classNames(projectcss.all, sty.freeBox__pKoZq)}>
@@ -314,90 +322,10 @@ function PlasmicAboutUs__RenderFunc(props: {
                         </ServiceValue>
                       ) : null}
                     </div>
-
-                    <div
-                      className={classNames(projectcss.all, sty.column__eSd7J)}
-                    >
-                      {true ? (
-                        <ServiceValue
-                          className={classNames(
-                            "__wab_instance",
-                            sty.serviceValue__nEeAi
-                          )}
-                        >
-                          <h3
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h3,
-                              projectcss.__wab_text,
-                              sty.h3__oKDnS
-                            )}
-                          >
-                            {"Value"}
-                          </h3>
-                        </ServiceValue>
-                      ) : null}
-                    </div>
-
-                    <div
-                      className={classNames(projectcss.all, sty.column___9IEt)}
-                    >
-                      {true ? (
-                        <ServiceValue
-                          className={classNames(
-                            "__wab_instance",
-                            sty.serviceValue__oUekc
-                          )}
-                        >
-                          <h3
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h3,
-                              projectcss.__wab_text,
-                              sty.h3___7QmvS
-                            )}
-                          >
-                            {"Value"}
-                          </h3>
-                        </ServiceValue>
-                      ) : null}
-                    </div>
-
-                    <div
-                      className={classNames(projectcss.all, sty.column__xJuEg)}
-                    >
-                      {true ? (
-                        <ServiceValue
-                          className={classNames(
-                            "__wab_instance",
-                            sty.serviceValue__fLZj
-                          )}
-                        >
-                          <h3
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h3,
-                              projectcss.__wab_text,
-                              sty.h3__yvSkr
-                            )}
-                          >
-                            {"Value"}
-                          </h3>
-                        </ServiceValue>
-                      ) : null}
-                    </div>
                   </p.Stack>
                 </p.Stack>
               </p.Stack>
             </p.Stack>
-          </div>
-
-          <div className={classNames(projectcss.all, sty.freeBox__wjUI)}>
-            <HomeFooterTop
-              data-plasmic-name={"homeFooterTop"}
-              data-plasmic-override={overrides.homeFooterTop}
-              className={classNames("__wab_instance", sty.homeFooterTop)}
-            />
           </div>
 
           <FooterMain
@@ -417,17 +345,17 @@ const PlasmicDescendants = {
     "aboutUsBanner",
     "foreground2",
     "h1",
+    "homeFooterTop",
     "h2",
     "serviceRow",
-    "homeFooterTop",
     "footerMain"
   ],
   aboutUsBanner: ["aboutUsBanner", "foreground2", "h1"],
   foreground2: ["foreground2", "h1"],
   h1: ["h1"],
+  homeFooterTop: ["homeFooterTop"],
   h2: ["h2"],
   serviceRow: ["serviceRow"],
-  homeFooterTop: ["homeFooterTop"],
   footerMain: ["footerMain"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -438,9 +366,9 @@ type NodeDefaultElementType = {
   aboutUsBanner: "div";
   foreground2: "div";
   h1: "h1";
+  homeFooterTop: typeof HomeFooterTop;
   h2: "h2";
   serviceRow: "div";
-  homeFooterTop: typeof HomeFooterTop;
   footerMain: typeof FooterMain;
 };
 
@@ -504,9 +432,9 @@ export const PlasmicAboutUs = Object.assign(
     aboutUsBanner: makeNodeComponent("aboutUsBanner"),
     foreground2: makeNodeComponent("foreground2"),
     h1: makeNodeComponent("h1"),
+    homeFooterTop: makeNodeComponent("homeFooterTop"),
     h2: makeNodeComponent("h2"),
     serviceRow: makeNodeComponent("serviceRow"),
-    homeFooterTop: makeNodeComponent("homeFooterTop"),
     footerMain: makeNodeComponent("footerMain"),
 
     // Metadata about props expected for PlasmicAboutUs
